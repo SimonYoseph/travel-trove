@@ -1,0 +1,102 @@
+.flight-search-page {
+  background-image: linear-gradient(90deg,#0f52ba ,#fecc98);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.flight-search-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.flight-search {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border: none;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  label {
+    width: 5em;
+    text-align: right;
+    margin-right: .5em;
+    margin-left: .5em;
+  }
+
+  .sublabel {
+    color:gray; 
+    margin:4px; 
+    font-size: 11px;
+  }
+
+  input, select {
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: solid 1px black;
+    cursor: pointer;
+  }
+  
+  input[type="date"] {
+    position: relative;
+  }
+  
+  input[type="date"]:before {
+    content: attr(placeholder);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.65);
+    pointer-events: none;
+    line-height: 1.5;
+    padding: 10px 0.5rem 0 0.5rem;
+  }
+  
+  input[type="date"]:focus:before,
+  input[type="date"]:not([value=""]):before
+  {
+    display: none;
+  }
+
+  .custom-bg {
+    background-color: #F7F7F9;
+  }

@@ -1,0 +1,30 @@
+.flights-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    
+
+}
+.flight {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.book-flight-btn {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: solid 1px black;
+    cursor: pointer;
+}
